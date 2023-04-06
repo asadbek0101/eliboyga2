@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Register</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="login-register">
+        <div class="register-wrapper">
+            <div class="register" id="register">
+                <h1 class="title"> <span>Re</span>gister</h1>
+                <div class="form">
+                    <div class="input-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Enter your username">
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" placeholder="Enter your password">
+                    </div>
+                </div>
+                <div class="forgot-password">
+                    <span>Forgot password?</span>
+                </div>
+                <div class="button-group">
+                    <button>Register</button>
+                </div>
+
+                <div class="link-wrapper">
+                    <div class="link-text">
+                        <span>Don't have an account?</span>
+                        <span id="login-link" class="link">Signin now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="login" id="login">
+                <h1 class="title"> <span>Lo</span>gin</h1>
+                <div class="form">
+                    <div class="input-group">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Enter your username">
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" placeholder="Enter your password">
+                    </div>
+                </div>
+                <div class="forgot-password">
+                    <span>Forgot password?</span>
+                </div>
+                <div class="button-group">
+                    <button>Login</button>
+                </div>
+
+                <div class="link-wrapper">
+                    <div class="link-text">
+                        <span>Don't have an account?</span>
+                        <span id="register-link" class="link">Signup now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-wrapper">
+            <img src="./images/logo.jpg" width="100%" height="100%" alt="">
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
